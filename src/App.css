@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+body {
+  background-color: var(--main-color);
+  font-family: "Mochiy Pop P One", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#topspace {
+  min-height: 25vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#title {
   color: white;
+  padding-top: 10vh;
 }
 
-.App-link {
-  color: #61dafb;
+#quote-box {
+  min-height: 50vh;
+  background-color: white;
+  border-radius: 10px;
+}
+#text {
+  color: var(--main-color);
+  min-height: 30vh;
+  padding-top: 40px;
+}
+#author {
+  color: var(--main-color);
+  font-size: 1.2em;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#toolbar {
+  padding: 20px;
+}
+
+#twitter-icon {
+  padding-left: 30px;
+  font-size: 3em;
+  color: var(--main-color);
+}
+
+#new-quote {
+  color: var(--main-color);
+  border-color: var(--main-color);
 }
